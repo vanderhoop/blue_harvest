@@ -5,6 +5,9 @@ ruby '2.0.0'
 gem 'rails', '4.0.3'
 gem 'pg'
 
+gem 'geocoder'
+gem 'bcrypt-ruby'
+
 #Gemfile
 group :development, :test do
   gem 'pry-rails'           # Causes rails console to open pry
