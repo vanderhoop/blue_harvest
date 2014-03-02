@@ -1,6 +1,8 @@
 GeocoderTest::Application.routes.draw do
 
   get '/' => "users#index"
+  post '/login' => "session#create"
+  post '/logout' => "session#destroy"
 
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
